@@ -5,6 +5,7 @@ presenta una particularidad la cual es:
 
 NO TIPADO
 
+no existe int, float, string, ni char, ni nada.
 
 TODO ES VAR -> variable
 
