@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Práctico</title>
+    <script src="JavaS/interes.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+    <div class="main-container">
+        <header>
+            <nav>
+                <img align="center" src="Imagenes/nissan-tsuru-1.jpg" width="700" height="250"> 
+                
+            </nav>
+        </header>
+        <section>
+            <article>
+                <table>
+                    <form method="post" name="Auto" onsubmit="return interes(this)" action="">
+                        <tr>
+                            <td>
+                                <label>Valor del coche: $</label>
+                                <input type="text" name="valor" id="valor">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Cuota inicial: </label>
+                                <input type="text" name="cuota" id="cuota">
+                                <label> %</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Periodo (3, 6, 9, 12 ó 18): </label>
+                                <input type="text" name="periodo" id="periodo">
+                                <label>meses</label>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <input type="submit" name="enviar" value="Enviar datos">
+                            </td>
+                            <td>
+                                <input type="reset" name="borrar" value="Borrar Datos">
+                            </td>
+            
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <button onclick="activar()" value="menu">Activar</button>
+                            </td>
+                        </tr>
+            
+                    </form>
+                </table>
+            </article>
+        </section>
+        <footer>
+            <h3>Jiménez Pliego Sebastián</h3>
+            <h3>4IV7</h3>
+            <h3>Programación y Servicios Web</h3>
+        </footer>
+    </div>
+</body>
+</html>

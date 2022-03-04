@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    text-align: center;
+}
+
+nav{
+    width: 94%;
+    height: 250px;
+}
+
+html, body{
+
+    background-color: #d4f55e;
+
+}
+
+table{
+    border-color: #000000;
+    background-color: rgb(255, 212, 212);
+    border: 2px;
+}
+
+
+.main-container{
+    border: 4px solid rgb(255, 48,275);
+    border-radius: 60px;
+    margin: 10rem;
+    background-color: rgb(149, 207, 188);
+}
+
+
+nav, section, footer, aside, article{
+    border: 2px solid #6e866e;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+article, aside{
+    width: 60%;
+    display: inline-block;
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+nav, footer, section{
+    background-color: rgb(0, 217, 255);
+}
